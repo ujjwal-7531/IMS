@@ -124,8 +124,8 @@ def update_inventory():
     # Updating or adding the item
     id=str(input("Enter id: "))
     name=str(input("Enter Name: "))
-    qty=str(input("Enter Quantity: "))
     rate=int(input("Enter Rate: "))
+    qty=str(input("Enter Quantity: "))
     data[id] = {"Name": name,"Qty": qty,"Rate": rate}
     
     # Writing the updated data back to the file
